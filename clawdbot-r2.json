@@ -1,0 +1,21 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/root/clawd",
+      "model": {
+        "primary": "anthropic/claude-opus-4-5"
+      }
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "trustedProxies": [
+      "10.1.0.0"
+    ],
+    "auth": {
+      "token": "384e887125f6cff6a07de5bdc71f335df27619bee9e87a87c6c808abed9bba7c"
+    }
+  },
+  "channels": {}
+}
